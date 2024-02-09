@@ -1,0 +1,10 @@
+$schema: 1.0
+name: amainstall
+description: Installs the Azure Monitor Agent using the client MSI
+author: Microsoft Corporation
+command: ".\\InstallAMA.ps1"
+documentation:
+  notes: This task is used to install the Azure Monitor Agent on Windows client machines.
+  examples:
+   - name: amainstall
+      description: installs the Azure monitor agent.
