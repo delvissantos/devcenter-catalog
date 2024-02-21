@@ -7,3 +7,4 @@ $logPath = "C:\Temp\AMALogs\0.log"
 New-Item -Force -Path $logPath
 $ArgumentList=@("/i", $packagePath, "/qn", "/li", $logPath)
 Start-Process msiexec -ArgumentList $ArgumentList -Wait -Verbose
+exit 0
