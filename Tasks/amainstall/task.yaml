@@ -1,14 +1,14 @@
 # This is a Chocolatey package installation task for Dev Box.
 
 $schema: 1.0
-name: amainstall
+name: amainstallv0
 description: Run AMA agent installation script.
 author: Microsoft Corporation
 command: "./InstallAMA.ps1"
 documentation:
   notes: This task is used to install the AMA agent.
   examples:
-    - name: amainstall
+    - name: amainstallv0
       description: install OracleJDK 17.0.2
       parameters:
         package: oraclejdk
