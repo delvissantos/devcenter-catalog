@@ -2,18 +2,14 @@
 
 $schema: 1.0
 name: amainstall
-description: Run sysprep script.
+description: Run AMA agent installation script.
 author: Microsoft Corporation
 command: "./InstallAMA.ps1"
 documentation:
-  notes: This task is used to install a Chocolatey package.
+  notes: This task is used to install the AMA agent.
   examples:
-    - name: choco
+    - name: amainstall
       description: install OracleJDK 17.0.2
       parameters:
         package: oraclejdk
         version: 17.0.2
-    - name: choco
-      description: install notepad++
-      parameters:
-        package: notepadplusplus
